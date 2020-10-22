@@ -1,7 +1,10 @@
+# point to the relative path with the base yaml files
 resources:
     - ../base
+# change namespace, or add it if it does not exists
 namespace: dev-namespace
 
+# patches in JsonPatches6902 format
 patches:
   - path: patch-replace-replicas.yaml
     target:

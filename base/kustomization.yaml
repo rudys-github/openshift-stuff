@@ -1,3 +1,4 @@
+# the base yaml files in the current directory.
 resources:
     - deployment.yaml
     - service.yaml
